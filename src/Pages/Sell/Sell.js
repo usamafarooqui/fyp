@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../../Components/Header/Header";
-import RecentlySoldSlider from "../../Components/RecentlySoldSlider/RecentlySoldSlider";
+import Header from "../../../src/components/Header/Header";
+import RecentlySoldSlider from "../../../src/components/RecentlySoldSlider/RecentlySoldSlider";
 import SellerHeaderData from "../../assets/RequiredData/SellerHeaderData";
-import SellerFeatures from "../../Components/SellerFeatures/SellerFeatures";
-import HowItWorks from "../../Components/HowItWorks/HowItWorks";
-import CompareUs from "../../Components/CompareUs/CompareUs";
-import Testimonials from "../../Components/Testimonials/Testimonials";
-import IsSiteFit from "../../Components/IsSiteFit/IsSiteFit";
-import SellingProcess from "../../Components/SellingProcess/SellingProcess";
-import HowItFeels from "../../Components/HowItFeels/HowItFeels";
-import TheBestPart from "../../Components/TheBestPart/TheBestPart";
-import ScrollToTop from "../../Components/ScrollToTop/ScrollToTop";
+import SellerFeatures from "../../../src/components/SellerFeatures/SellerFeatures";
+import HowItWorks from "../../../src/components/HowItWorks/HowItWorks";
+import CompareUs from "../../components/CompareUs/CompareUs";
+import Testimonials from "../../../src/components/Testimonials/Testimonials";
+import IsSiteFit from "../../../src/components/IsSiteFit/IsSiteFit";
+import SellingProcess from "../../../src/components/SellingProcess/SellingProcess";
+import HowItFeels from "../../../src/components/HowItFeels/HowItFeels";
+import TheBestPart from "../../../src/components/TheBestPart/TheBestPart";
+import ScrollToTop from "../../../src/components/ScrollToTop/ScrollToTop";
 const Sell = () => {
   const { heading, slogon, features, buttons, backgroundImage, isHomeOpen } =
     SellerHeaderData;

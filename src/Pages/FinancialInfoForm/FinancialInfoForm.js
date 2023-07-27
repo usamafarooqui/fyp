@@ -1,8 +1,8 @@
 import React from "react";
 import { financialInfo } from "../../assets/RequiredData/FormData";
-import FormHeader from "../../Components/Forms/FormHeader/RegisterationHeader";
+import FormHeader from "../../../src/components/Forms/FormHeader/RegisterationHeader";
 
-import FinancialInfoForm from "../../Components/Forms/FinancialInfoForm/FinancialInfoForm";
+import FinancialInfoForm from "../../../src/components/Forms/FinancialInfoForm/FinancialInfoForm";
 
 const index = () => {
   return (

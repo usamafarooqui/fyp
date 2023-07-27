@@ -1,8 +1,9 @@
 import React from "react";
-import FormHeader from "../../Components/Forms/FormHeader/RegisterationHeader";
-import AdditionalInfoForm from "../../Components/Forms/AdditionalInfoForm/AdditionalInfoForm";
-import "../../Components/Forms/AdditionalInfoForm/AdditionalInfoForm.css";
+import FormHeader from "../../../src/components/Forms/FormHeader/RegisterationHeader";
+import AdditionalInfoForm from "../../../src/components/Forms/AdditionalInfoForm/AdditionalInfoForm";
+// import "../../Components/Forms/AdditionalInfoForm/AdditionalInfoForm.css";
 import { additionalInfo } from "../../assets/RequiredData/FormData";
+// ../../Components/Forms/AdditionalInfoForm/AdditionalInfoForm
 
 const index = () => {
   return (

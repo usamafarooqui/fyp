@@ -5,7 +5,7 @@ import Offers from "./Offers/Offers";
 import Inbox from "./Inbox/Inbox";
 import Notifications from "./Notifications/Notifications";
 import Account from "./Account/Account";
-import Navbar from "../../Components/Navbar/Navbar";
+import Navbar from "../../../src/components/Navbar/Navbar";
 import { FormControlLabel, FormGroup, Switch } from "@mui/material";
 const Dashboard = () => {
   const location = useLocation();
